@@ -3,13 +3,12 @@
 monbacklight is a simple utility to change to monitor brightness on the Macbookpro 11,4
 
 ### Usage
-<code>
-	monbacklight < get [ ratio ] | set [ + | - ] value[%] >
-</code>
+``` bash
+monbacklight < get [ ratio ] | set [ + | - ] value[%] >
+```
 
 ### Installation
-<code>
+``` bash
 make
 sudo make install
-</code>
-
+```
